@@ -8,6 +8,21 @@
   background-color: var(--footer-bg-color);
 }
 
+.footer ul {
+  list-style-type: none;
+  padding: unset;
+  margin: unset;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--footer-color);
+}
+
+.footer a:hover {
+  color: var(--footer-color-hover);
+}
+
 .footer .footer-logo img {
   width: 100%;
   margin: 25px 0;
@@ -26,17 +41,6 @@
   font-size: 20px;
 }
 
-.footer ul {
-  list-style-type: none;
-  padding: unset;
-  margin: unset;
-}
-
-.footer a {
-  text-decoration: none;
-  color: var(--footer-color);
-}
-
-.footer a:hover {
-  color: var(--footer-color-hover);
+.footer .footer-info .footer-info__menu a {
+  text-transform: uppercase;
 }
