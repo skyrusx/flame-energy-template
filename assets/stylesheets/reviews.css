@@ -1,0 +1,22 @@
+.reviews {
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+#carousel-reviews .carousel-caption {
+  position: relative;
+  color: black;
+  top: unset;
+  right: unset;
+  bottom: unset;
+  left: unset;
+}
+
+#carousel-reviews .carousel-control-prev-icon {
+  background-image: url("/assets/images/prev-icon.png");
+}
+
+#carousel-reviews .carousel-control-next-icon {
+  background-image: url("/assets/images/next-icon.png");
+}
