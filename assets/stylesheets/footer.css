@@ -1,0 +1,42 @@
+:root {
+  --footer-bg-color: #000000;
+  --footer-color: #F07F1B;
+  --footer-color-hover: #EB5E22;
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer .footer-logo img {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.footer .footer-info {
+  color: var(--footer-color);
+  padding-bottom: 25px;
+}
+
+.footer .footer-info .footer-info__about p {
+  margin-bottom: 4px;
+}
+
+.footer .footer-info .footer-info__about .footer-info__title {
+  font-size: 20px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: unset;
+  margin: unset;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--footer-color);
+}
+
+.footer a:hover {
+  color: var(--footer-color-hover);
+}
