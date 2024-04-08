@@ -1,3 +1,10 @@
 @import url("bootstrap.css");
 @import url("reviews.css");
 @import url("footer.css");
+
+:root {
+  --about-bg-color: #F07F1B;
+  --footer-bg-color: #000000;
+  --footer-color: #F07F1B;
+  --footer-color-hover: #EB5E22;
+}
