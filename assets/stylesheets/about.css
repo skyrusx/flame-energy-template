@@ -1,0 +1,9 @@
+.about {
+  background-color: var(--about-bg-color);
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.about h1 {
+  text-transform: uppercase;
+}
