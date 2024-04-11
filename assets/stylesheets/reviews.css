@@ -4,6 +4,10 @@
   padding-bottom: 30px;
 }
 
+.reviews h1 {
+  text-transform: uppercase;
+}
+
 #carousel-reviews .carousel-caption {
   position: relative;
   color: black;
