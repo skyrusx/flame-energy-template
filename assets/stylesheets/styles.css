@@ -1,9 +1,14 @@
 @import url("./bootstrap/bootstrap.css");
+@import url("fonts.css");
 @import url("header.css");
 @import url("boilers.css");
 @import url("about.css");
 @import url("reviews.css");
 @import url("footer.css");
+
+body {
+  font-family: 'Roboto Regular';
+}
 
 :root {
   --about-bg-color: #F07F1B;
