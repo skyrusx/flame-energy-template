@@ -1,6 +1,6 @@
 .header .navbar {
   background-color: white !important;
-  background-image: url("/assets/images/bg-navbar.png");
+  background-image: url("../images/bg-navbar.png");
   background-size: 70%;
   background-position: top left;
   background-repeat: no-repeat;
@@ -27,13 +27,13 @@
 }
 
 .header .info-block__wrapper {
-  background-image: url("/assets/images/bg-header-grey.png");
+  background-image: url("../images/bg-header-grey.png");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .header .info-block__wrapper .info-block__inner {
-  background-image: url("/assets/images/bg-header.png");
+  background-image: url("../images/bg-header.png");
   background-size: 70.6%;
   background-position: top left;
   background-repeat: no-repeat;
@@ -88,14 +88,14 @@
 }
 
 .header .info-block__right {
-  background-image: url("/assets/images/bg-header-el.png");
+  background-image: url("../images/bg-header-el.png");
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: 150px auto;
 }
 
 .header .info-block__right .info-block__boiler {
-  background-image: url("/assets/images/header-boiler.png");
+  background-image: url("../images/header-boiler.png");
   background-repeat: no-repeat;
   background-position: center right;
   background-size: 80%;

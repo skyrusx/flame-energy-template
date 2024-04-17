@@ -18,7 +18,7 @@
 }
 
 #carousel-reviews .carousel-control-prev-icon {
-  background-image: url("/assets/images/prev-icon.png");
+  background-image: url("../images/prev-icon.png");
 }
 
 #carousel-reviews .carousel-control-next-icon {
