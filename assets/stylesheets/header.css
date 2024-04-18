@@ -148,7 +148,7 @@
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .header .navbar {
     background-color: black !important;
     background-image: unset;
@@ -167,4 +167,8 @@
   .header .info-block__wrapper .info-block__inner .row {
     width: 100%;
   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
 }

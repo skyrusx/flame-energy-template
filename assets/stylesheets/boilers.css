@@ -73,9 +73,16 @@
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px) {
   .boilers h1::before,
   .boilers h1::after {
     width: calc(100% - 68%);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .boilers h1::before,
+  .boilers h1::after {
+    width: calc(100% - 64%);
   }
 }
