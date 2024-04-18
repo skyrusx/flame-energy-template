@@ -163,4 +163,8 @@
     background-size: cover;
     margin-left: unset;
   }
+  
+  .header .info-block__wrapper .info-block__inner .row {
+    width: 100%;
+  }
 }
