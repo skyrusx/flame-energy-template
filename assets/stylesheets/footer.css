@@ -17,9 +17,14 @@
   color: var(--footer-color-hover);
 }
 
+.footer .footer-logo {
+  text-align: center;
+}
+
 .footer .footer-logo img {
   width: 100%;
   margin: 25px 0;
+  max-width: 400px;
 }
 
 .footer .footer-info {
@@ -38,3 +43,23 @@
 .footer .footer-info .footer-info__menu a {
   text-transform: uppercase;
 }
+
+@media (max-width: 575px) {
+  .footer .footer-info {
+    text-align: center;
+  }
+  
+  .footer .footer-info div {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}
