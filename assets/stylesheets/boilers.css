@@ -65,3 +65,17 @@
   background-color: #F07F1B;
   margin: -15px;
 }
+
+@media (max-width: 575px) {
+  .boilers h1::before,
+  .boilers h1::after {
+    width: calc(100% - 73%);
+  }
+}
+
+@media (min-width: 576px) {
+  .boilers h1::before,
+  .boilers h1::after {
+    width: calc(100% - 68%);
+  }
+}

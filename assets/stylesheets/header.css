@@ -147,3 +147,20 @@
     margin: unset;
   }
 }
+
+@media (min-width: 576px) {
+  .header .navbar {
+    background-color: black !important;
+    background-image: unset;
+  }
+  
+  .header .info-block__wrapper {
+    background-size: cover;
+    padding: unset;
+  }
+  
+  .header .info-block__wrapper .info-block__inner {
+    background-size: cover;
+    margin-left: unset;
+  }
+}
